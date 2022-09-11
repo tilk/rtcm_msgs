@@ -4,7 +4,7 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rtcm_msgs</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <description>The rtcm_msgs package contains messages related to data in the RTCM format.</description>
   <maintainer email="tilk@tilk.eu">Marek Materzok</maintainer>
   <license>BSD</license>
