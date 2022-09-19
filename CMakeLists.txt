@@ -30,7 +30,7 @@ elseif(${ROS_VERSION} EQUAL 2)
 
   rosidl_generate_interfaces(${PROJECT_NAME} ADD_LINTER_TESTS
     msg/Message.msg
-    DEPENDENCIES std_msgs
+    DEPENDENCIES builtin_interfaces std_msgs
   )
 
   ament_export_dependencies(rosidl_default_runtime)
