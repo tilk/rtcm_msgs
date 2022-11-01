@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project(rtcm_msgs)
 
-find_package(ros_environment REQUIRED)
-
 set(ROS_VERSION $ENV{ROS_VERSION})
 
 find_package(std_msgs REQUIRED)
