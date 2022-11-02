@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(rtcm_msgs)
 
+# ros_environment is needed to have ROS_VERSION
+find_package(ros_environment REQUIRED)
 set(ROS_VERSION $ENV{ROS_VERSION})
 
 find_package(std_msgs REQUIRED)
